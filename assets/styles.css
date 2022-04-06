@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;700&display=swap');
+
+/* #ff6046 */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+  background: url('./greyfade.jpeg');
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  color: #fff;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Spectral', serif;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 42px;
+}
+
+h3 {
+  font-family: 'Spectral', serif;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.center {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 90%;
+}
+
+#result {
+  display: flex;
+  flex-direction: row;
+}
+
+#result div {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 150px;
+}
+
+#result div img {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  width: 120px;
+}
